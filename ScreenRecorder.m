@@ -30,7 +30,7 @@
 
     if (self) {
         _session = [[AVCaptureSession alloc] init];
-        [_session setSessionPreset: AVCaptureSessionPresetLow];
+        [_session setSessionPreset: AVCaptureSessionPresetMedium];
         _input = [[AVCaptureScreenInput alloc] initWithDisplayID:displayId];
         _output = [[AVCaptureMovieFileOutput alloc] init];
 
